@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import Listalibros from '/myApp/src/assets/json/libros.json';
+import Listalibros from '../assets/json/libros.json';
+
 // Importo el archivo JSON
 
 @Component({
