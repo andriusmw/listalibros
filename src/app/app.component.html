@@ -11,7 +11,18 @@
 
   <ul>
     <li *ngFor="let libro of Libros">
+      {{libro.id}}
       {{libro.titulo}}
+      {{libro.autor}}
+      {{libro.editorial}}
+      {{libro.descripcion}}
+      {{libro.img}}
+
+      <img src="/myApp/src/img/{{libro.img}}" >
+
+
+      <br>
+      <br>
     </li>
   </ul>
 </div>
